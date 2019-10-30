@@ -1,0 +1,46 @@
+a, li { text-decoration: none; }
+
+.desktop-nav { display: initial; }
+.display-none { display: none; }
+
+.sidebar-container {
+    position: fixed;
+    display: initial;
+    height: 30%;
+    width: 350px;
+    z-index: 10;
+}
+
+.sidebar-toggle {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    background-color: rgba(0,0,0,.5);
+    width: 112px;
+    margin: 40px;
+    padding: 10px;
+}
+
+.sidebar-items {
+    position: fixed;
+    z-index: 10;
+    list-style: none;
+    font-size: 3rem;
+}
+
+.sidebar-items li {
+    text-transform: uppercase;
+    font-family: 'Segoe UI', sans-serif;
+    cursor: pointer;
+    padding: 2px 14px 5px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: rgba(0,0,0,.5);
+}
+
+.sidebar-items li:hover {
+    color: rgba(0,0,0,.85);
+    background-color: #fbfbfb;
+    transition: .3s;
+}
