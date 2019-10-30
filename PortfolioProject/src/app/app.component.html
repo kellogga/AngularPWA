@@ -1,5 +1,6 @@
 <div class="wrapper">
   <app-nav-menu></app-nav-menu>
+  <router-outlet></router-outlet>
   <!-- Home Section  --------------------------------->
   <section id="home">
     <!-- Video Background -->
@@ -44,7 +45,7 @@
             perferendis similique. Inventore dolor, quo nihil architecto illum
             dolorum. Vitae, culpa deserunt.
           </p>
-          <a href="#">
+          <a routerLink="/resume" routerLinkActive="active" (click)="scrollToTop()">
             <div class="card-button">View Resume</div>
           </a>
         </div>
